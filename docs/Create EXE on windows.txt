@@ -1,0 +1,26 @@
+pyinstaller no longer supports cross-compilation since 1.5:
+https://groups.google.com/g/pyinstaller/c/veq3BlA_Bns
+
+There are two solutions
+1 Compile on Windows
+2 Compile on Linux with Wine
+
+Compile on Windows (Via Windows' Command Prompt):
+1 Open Command Prompt
+2 Check if pip3 is installed
+  run: $ pip3 help
+3 Check python
+  run: $ python
+  If this is unrecognized you need to install python 1st
+  DO NOT install python from the Microsoft store, instead use:
+  https://www.python.org/downloads/release/python-392/
+4 Install pyinstaller
+  run: $ pip3 install pyinstaller
+5 Install Requirements:
+  # Found in requirements.txt
+  run: $ pip3 pyqrcode
+  run: $ pip3 Pillow
+  run: $ pip3 pypng
+6 Run deploy.bat
+  NOTE In general, running an untrusted .bat file is an awful idea.
+  I would suggest looking through any bat files (via editing them) before running.

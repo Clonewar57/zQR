@@ -1,0 +1,24 @@
+[
+	{
+		"background_src": "FlexPaste.png",
+		"raw_offset_width": 300,
+		"raw_offset_height": 300,
+		"offset_type": 2
+		
+	},
+	{
+		"background_src": "GinaBrooklynNineNine.jpg",
+		"raw_offset_width": 300,
+		"raw_offset_height": 300,
+		"offset_type": 2
+		
+	},
+	{
+		"background_src": "MastersBlessing.jpg",
+		"raw_offset_width": 300,
+		"raw_offset_height": 300,
+		"offset_type": 2
+		
+	},
+
+]
