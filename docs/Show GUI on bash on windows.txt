@@ -1,0 +1,11 @@
+Setup:
+	Install xming https://sourceforge.net/projects/xming/
+	run: $ export DISPLAY=localhost:0.0
+		to connect to Xming 
+	run: $ apt-get install x11-apps
+	run: $ xeyes
+		to test
+On each run:
+	run xming
+	run $ export DISPLAY=localhost:0.0
+		You can put this in the ~/.profile file to skip this.

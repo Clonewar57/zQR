@@ -17,10 +17,7 @@ Compile on Windows (Via Windows' Command Prompt):
 4 Install pyinstaller
   run: $ pip3 install pyinstaller
 5 Install Requirements:
-  # Found in requirements.txt
-  run: $ pip3 pyqrcode
-  run: $ pip3 Pillow
-  run: $ pip3 pypng
+  pip3 install -r requirements.txt
 6 Run deploy.bat
   NOTE In general, running an untrusted .bat file is an awful idea.
   I would suggest looking through any bat files (via editing them) before running.
